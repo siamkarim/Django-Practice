@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Siam"]
+	url = https://github.com/siamkarim/Django-Practice
+	fetch = +refs/heads/*:refs/remotes/Siam/*
+[remote "origin"]
+	url = https://github.com/siamkarim/Django-Practice.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
