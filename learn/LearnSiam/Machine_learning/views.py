@@ -5,7 +5,6 @@ from django.shortcuts import render
 
 # Create your views here.
 def machine(request):
-    return HttpResponse('<h1> This is my first attempt to learn Django </h1>')
+    ofer = {"what": "django and machine learning"}
+    return render(request,'machine_learning/Machine_learning.html',context=ofer)
 
-def deep (request):
-    return HttpResponse('<h1> This is my first attempt to deep learning</h1>')    
